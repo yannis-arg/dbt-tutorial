@@ -7,7 +7,8 @@ authors = ["Yannis Argyrakis <yannis.argyrakis@devoteam.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 dbt-bigquery = "^1.2.0"
-
+google-cloud-secret-manager="^2.12.6"
+pandas="1.5.2"
 [tool.poetry.dev-dependencies]
 
 [build-system]

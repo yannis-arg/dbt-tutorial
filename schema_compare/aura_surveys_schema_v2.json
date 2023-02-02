@@ -1,0 +1,581 @@
+[
+  {
+    "name": "displayedFields",
+    "mode": "REPEATED",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "labels",
+    "mode": "NULLABLE",
+    "type": "RECORD",
+    "fields": [
+      {
+        "name": "QID30",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID28",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID27",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID24",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID21_NPS_GROUP",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID6",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID7",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID26",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID9",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID2",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID1_NPS_GROUP",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID18",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID22",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID17",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID3",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "status",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "finished",
+        "mode": "NULLABLE",
+        "type": "BOOLEAN",
+        "fields": []
+      },
+      {
+        "name": "QID19",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID8",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      }
+    ]
+  },
+  {
+    "name": "values",
+    "mode": "NULLABLE",
+    "type": "RECORD",
+    "fields": [
+      {
+        "name": "QID32_TEXT",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID30",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID11_TEXT_13d701f2_33h2buw5uppfParTopics",
+        "mode": "REPEATED",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID24",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID19",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID22",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID21",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID21_NPS_GROUP",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID11_TEXT_13d701f2_33h2buw5uppfTopics",
+        "mode": "REPEATED",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID18",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID11_TEXT_13d701f2_33h2buw5uppfSenScore",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID16_TEXT",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "distributionChannel",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID11_TEXT",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID4_TEXT",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID10_TEXT",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID11_TEXT_13d701f2_33h2buw5uppfSenPol",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID8",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID27",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "locationLongitude",
+        "mode": "NULLABLE",
+        "type": "FLOAT",
+        "fields": []
+      },
+      {
+        "name": "locationLatitude",
+        "mode": "NULLABLE",
+        "type": "FLOAT",
+        "fields": []
+      },
+      {
+        "name": "loc",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "outlet_DERIVEDpndiqvu",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "outlet_DERIVED9wlnmjt",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "outlet",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID28",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID26",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "_recordId",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID2",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID12_TEXT",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "outlet_DERIVEDaswe9ql",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID1_NPS_GROUP",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID15_TEXT",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID6",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID11_TEXT_13d701f2_33h2buw5uppfTopicSenScore",
+        "mode": "REPEATED",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID3",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID11_TEXT_13d701f2_33h2buw5uppfSentiment",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID9",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID1",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "finished",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID17",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "status",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID11_TEXT_13d701f2_33h2buw5uppfTopicSenLabel",
+        "mode": "REPEATED",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "QID14_TEXT",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "userLanguage",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "duration",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "recordedDate",
+        "mode": "NULLABLE",
+        "type": "TIMESTAMP",
+        "fields": []
+      },
+      {
+        "name": "QID7",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "Source_DERIVED95guxfc",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "progress",
+        "mode": "NULLABLE",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "ipAddress",
+        "mode": "NULLABLE",
+        "type": "STRING",
+        "fields": []
+      },
+      {
+        "name": "endDate",
+        "mode": "NULLABLE",
+        "type": "TIMESTAMP",
+        "fields": []
+      },
+      {
+        "name": "startDate",
+        "mode": "NULLABLE",
+        "type": "TIMESTAMP",
+        "fields": []
+      }
+    ]
+  },
+  {
+    "name": "displayedValues",
+    "mode": "NULLABLE",
+    "type": "RECORD",
+    "fields": [
+      {
+        "name": "QID30",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID21",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID24",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID21_NPS_GROUP",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID27",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID28",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID7",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID6",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID1_NPS_GROUP",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID22",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID1",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID3",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID17",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID18",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID26",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID9",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID2",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID19",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      },
+      {
+        "name": "QID8",
+        "mode": "REPEATED",
+        "type": "INTEGER",
+        "fields": []
+      }
+    ]
+  },
+  {
+    "name": "responseId",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  }
+]

@@ -1,0 +1,8 @@
+selectors:
+  - name: stg_customers
+    definition:
+      tag: staging
+  - name: stg_orders
+    description: ...
+    definition:
+      tag: staging

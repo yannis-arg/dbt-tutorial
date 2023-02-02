@@ -1,0 +1,63 @@
+//PUT ContactOriginData(ContactID='[joined_customer_id]',ContactOrigin='BIGQUERY') HTTP/1.1
+//Content-Length: 1035
+//Accept: application/json
+//Sap-Cuan-RequestTimestamp: '2017-10-01T13:13:14' TODO : Assign this value to OriginDataLastChgUTCDateTime
+//Sap-Cuan-SourceSystemType: EXT
+//Sap-Cuan-SourceSystemId: BIGQUERY
+//Content-Type: application/json
+
+{
+ "OriginDataLastChgUTCDateTime" : "2022-09-01T13:13:14Z", // Need a timestamp,
+ "EmailAddress": "john.doe@email.con",
+ "PhoneNumber": "+98888888",
+ "CityName" : null, // Doha
+ "Country" : null, // "QAT" Use "nationality" ?
+ "FirstName" : "John",
+ "LastName" : "Doe",
+ "FullName" : "John Doe",
+ "GenderCode" : "1", // "1" Men , "2" Women , use "gender" male/female
+ "BirthDate" : null, // birthdate
+ "AddressHouseNumber" : null,
+ "IsConsumer" : true,
+ "IsContactPerson" : false,
+ "Language" : null, // Use "language"
+ "MaritalStatus" : null,
+ "MaritalStatusName" : null
+ }
+
+//PUT AdditionalIDs(ContactID='[joined_customer_id]',ContactOrigin=BIGQUERY',ContactAdditionalOrigin='Email',ContactAdditionalID='john.doe@email.con') HTTP/1.1
+//Content-Length: 1035
+//Accept: application/json
+//Sap-Cuan-RequestTimestamp: '2017-10-01T13:13:14'
+//Sap-Cuan-SourceSystemType: EXT
+//Sap-Cuan-SourceSystemId: BIGQUERY
+//Content-Type: application/json
+//
+//TODO: send empty JSON {}
+
+/*******************
+   AdditionalIDs          # TODO : Create the list of new Additionnal IDs inside SAP
+*******************/
+
+//PUT AdditionalIDs(ContactID='4711',ContactOrigin='BIGQUERY',ContactAdditionalOrigin='Phone',ContactAdditionalID='+98888888') HTTP/1.1
+
+/***********************
+   MarketingAttributes    # TODO : Create the list of new Marketing Attributes inside SAP
+***********************/
+
+//PUT MarketingAttributes(ContactID='[joined_customer_id]',ContactOrigin='BIGQUERY',MarketingAttributeCategory='Age_Group',MarketingAttributeValue='18-35') HTTP/1.1
+//PUT MarketingAttributes(ContactID='[joined_customer_id]',ContactOrigin='BIGQUERY',MarketingAttributeCategory='Spender_Type',MarketingAttributeValue='High') HTTP/1.1
+//PUT MarketingAttributes(ContactID='[joined_customer_id]',ContactOrigin='BIGQUERY',MarketingAttributeCategory='Wifi_Visits',MarketingAttributeValue='12') HTTP/1.1
+//PUT MarketingAttributes(ContactID='[joined_customer_id]',ContactOrigin='BIGQUERY',MarketingAttributeCategory='Survey_Answer',MarketingAttributeValue='1') HTTP/1.1
+
+// New MarketingAttributes to be defined by ML use case
+
+/***********************
+   MarketingAreas    # TODO : Create the list of MarketingAreas inside SAP
+***********************/
+//PUT MarketingAreas(ContactID='[joined_customer_id]',ContactOrigin='BIGQUERY',InteractionContactMktgArea='mall_of_qatar') HTTP/1.1
+//PUT MarketingAreas(ContactID='[joined_customer_id]',ContactOrigin='BIGQUERY',InteractionContactMktgArea='almaha') HTTP/1.1
+
+//PUT MarketingLocations(ContactID='[joined_customer_id]',ContactOrigin='BIGQUERY',MarketingLocationExternalID='mall_of_qatar') HTTP/1.1
+
+

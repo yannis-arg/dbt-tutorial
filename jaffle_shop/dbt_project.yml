@@ -35,4 +35,5 @@ models:
   jaffle_shop_yannis_tuto:
     # Config indicated by + and applies to all files under models/example/
     example:
-      +materialized: view
+      +materialized: table
+      +project: "{{'dbt-test-' + target.name}}"
